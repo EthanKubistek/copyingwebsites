@@ -27,13 +27,13 @@ footer{
 
 }
 
-.bp {
+.big {
   background-image: url("https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg");
-  
+    width: 95%;
+    margin: 1rem 2.5%;
 }
-.bp h1 {
-}
-.upt {
+
+.underbig {
   font-size: 22px;
   font-weight: 400;
   color: #919191;
@@ -43,13 +43,41 @@ footer{
   padding-left: 50px;
 }
 
-.sl img {
+.sponsorslist img {
 width: 300px;
 height: 130px;
 display: flex;
 }
 
-.slg img {
-  display: flex;
-  flex-direction: row;
+.connect {
+  background-color: #24648c;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.connect a {
+  display: block;
+  height: 60px;
+  width: 60px;
+  background: url("http://cposc.org/wp-content/themes/Tyler/images/icons-lg.png")no-repeat top left;
+  background-size: 480px auto;
+  margin: 1rem 0;
+}
+
+.connect a.email {
+  background-position: -240px 0;
+
+}
+
+.connect a.facebook {
+  background-position: -180px -120px;
+}
+
+.connect a.twitter {
+  background-position: -300px -120px;
+}
+
+.connect a.linkedin {
+  background-position: -180px -60px;
 }
