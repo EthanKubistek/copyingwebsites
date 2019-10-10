@@ -1,0 +1,55 @@
+
+nav {
+    float: right;
+}
+  
+  nav ul {
+  margin: 0;
+  padding-right: 20px;
+  padding-top: 25px;
+  list-style: none;
+  
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    position: relative;
+  }
+
+footer{
+  background: #313131;
+}
+
+.conduct{
+  background: #393939;
+
+}
+
+.bp {
+  background-image: url("https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg");
+  
+}
+.bp h1 {
+}
+.upt {
+  font-size: 22px;
+  font-weight: 400;
+  color: #919191;
+  margin: 0 0 12px;
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.sl img {
+width: 300px;
+height: 130px;
+display: flex;
+}
+
+.slg img {
+  display: flex;
+  flex-direction: row;
+}
