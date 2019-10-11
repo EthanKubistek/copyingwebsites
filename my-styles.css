@@ -22,6 +22,7 @@ nav li {
 
 footer{
 background: #363535;
+width: 100%;
 }
 
 .conduct{
@@ -84,6 +85,10 @@ background-position: -300px -120px;
 background-position: -180px -60px;
 }
 
+.connect ul {
+  list-style: none;
+  }
+
 .sponsorslist {
   display: flex;
 }
@@ -92,6 +97,72 @@ background-position: -180px -60px;
   font-size: 3.5em;
 }
 
-.why {
-  <img src="//cdn.shopify.com/s/files/1/0531/3957/files/IMG_9222.jpg?v=1569528426");
+.textlist {
+display: flex;
+flex-direction: column;
 }
+
+.textlist p {
+  line-height: 1.58;
+ 
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+  margin: auto;
+  padding-left: 450px;
+  width: 40%;
+}
+
+.textlist h3 {
+  text-align: center;
+  margin: auto;
+  padding-left: 450px;
+  display: inline;
+  
+}
+
+
+  
+
+.connectmiddle {
+  background-color: #363535;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 5px;
+  }
+  
+  .connectmiddle a {
+  display: block;
+  height: 60px;
+  width: 60px;
+  background: url("http://cposc.org/wp-content/themes/Tyler/images/icons-lg.png");
+  background-size: 480px auto;
+  margin: 1rem 0;
+  }
+  
+  .connectmiddle a.email {
+  background-position: -240px 0;
+  
+  }
+  
+  .connectmiddle a.facebook {
+  background-position: -180px -120px;
+  }
+  
+  .connectmiddle a.twitter {
+  background-position: -300px -120px;
+  }
+  
+  .connectmiddle a.linkedin {
+    background-position: -180px -60px;
+  }
+
+  .connectmiddle ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+
+  }
+
+  
